@@ -1,3 +1,7 @@
 import UIKit
 
-var greeting = "Hello, playground"
+// Variables declared with var, constants declared with let
+
+var hello = "Hi there!"
+
+let name = "AJ"
