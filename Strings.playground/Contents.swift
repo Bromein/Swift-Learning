@@ -25,3 +25,16 @@ print(stringCount)
 print(myString.uppercased())
 
 
+//hasPrefix checks start of string for match that you provide in args
+//True
+myString.hasPrefix("Tomorrow")
+
+
+//False
+myString.hasPrefix("is the day")
+
+// method hasSuffix checks end of string for match that you provide in args
+//True
+myString.hasSuffix("same as yesterday")
+
+
