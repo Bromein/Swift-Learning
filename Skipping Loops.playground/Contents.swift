@@ -12,7 +12,7 @@ for filename in filenames {
 print("I broke out")
 
 
-//breaks exits a loop immediately and skips all remaining iterations. 
+//breaks exits a loop immediately and skips all remaining iterations.
 let number1 = 4
 let number2 = 14
 var multiples = [Int]()
