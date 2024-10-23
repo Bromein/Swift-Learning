@@ -72,3 +72,12 @@ func printValues(_ string: String) {
 luckyNumbers.filter(isOdd).sorted().map(luckyNums).forEach(printValues)
 
 
+///
+///
+
+let myClosure = {
+    print("Hi")
+}
+
+myClosure()
+
