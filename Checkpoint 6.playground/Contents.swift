@@ -13,7 +13,7 @@ struct Car {
     private var gear: Int
     var passengers: [String]
     
-    //remember, if private var is in this struct, you must init yourself
+    //remember, if private var is in this struct, you must init yourself, otherwise let it be read only to everyone with private(set)
     
     init(model: String, seats: Int, gear: Int, maxGears: Int) {
         self.model = model
